@@ -1,0 +1,11 @@
+<h1 [ngSwitch]="coleurs">
+    <h1 *ngSwitchCase="'rouge'"> La color est rouge</h1>
+    <h1 *ngSwitchCase="'jaune'"> La color est jaune</h1>
+    <h1 *ngSwitchCase="'blue'"> La color est blue</h1>
+    <h1 *ngSwitchCase="'rose'"> La color est rose</h1>
+
+</h1>
+<h1>La list des coleurs </h1>
+<ul *ngFor="let c of coleurs">
+<li>{{c}}</li>
+</ul>

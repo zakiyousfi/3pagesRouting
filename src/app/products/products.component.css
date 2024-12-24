@@ -1,0 +1,26 @@
+h2{
+    font-size: 60px;
+    font-weight: 100;
+    color: blue;
+
+}
+h5{
+    font-style: italic;
+    font-weight: 600;
+    background-color: blue;
+}
+body{
+    background-color: aquamarine;
+}
+p{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+
+}
+ol{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
